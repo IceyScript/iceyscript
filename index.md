@@ -2,13 +2,13 @@
 
 [The Best USB Rubber Ducky Solution]
 
-The first thing you will need is the device =roughly $40 cheaper then a real ducky= [Adafruti Trinket](https://www.adafruit.com/product/1501)
+The first thing you will need is the device =roughly $40 cheaper then a real ducky=  [Adafruti Trinket](https://www.adafruit.com/product/1501)
 
-Secondly You Will Need The Trinket Keyboard Library Found [Here] (https://learn.adafruit.com/pro-trinket-keyboard/library)
+Secondly You Will Need The Trinket Keyboard Library Found [Here](https://learn.adafruit.com/pro-trinket-keyboard/library)
 
-Now, you need the IDE found here [IDE] (https://learn.adafruit.com/introducing-pro-trinket/setting-up-arduino-ide)
+Now, you need the IDE found here [IDE](https://learn.adafruit.com/introducing-pro-trinket/setting-up-arduino-ide)
 
-Lastly, you need the [script] (https://pastebin.com/raw/wdZ0axP5)
+Lastly, you need the [script](https://pastebin.com/raw/wdZ0axP5)
 
 Now, once you have the script in your IDE, you need to make a few edits:
 Make a Backdoor in Metasploit with these commands
