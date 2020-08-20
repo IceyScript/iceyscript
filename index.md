@@ -2,7 +2,7 @@
 
 [The Best USB Rubber Ducky Solution]
 
-The first thing you will need is the device ~ roughly $40 cheaper then a real ducky ~ [Adafruit Trinket](https://www.adafruit.com/product/1501)
+The first thing you will need is the device ~ roughly $40 cheaper then a real ducky ~ [Adafruit Trinket](https://www.adafruit.com/product/2000?gclid=CjwKCAjwm_P5BRAhEiwAwRzSOzePwCEtjDbmIK55p0BAYJ9yXicqMlGhq5fEl4ScdXdDDwepYw4XmBoCQEMQAvD_BwE)
 
 Secondly You Will Need The Trinket Keyboard Library Found [Here](https://learn.adafruit.com/pro-trinket-keyboard/library)
 
